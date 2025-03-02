@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def generate_checkerboard(size=64, num_squares=8):
     """
-    生成棋盘格图像
+    Generates a checkerboard pattern image of size (size x size).
     """
     block_size = size // num_squares
     image = np.zeros((size, size))
